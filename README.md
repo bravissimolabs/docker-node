@@ -1,2 +1,2 @@
 # docker-node
-Docker node base image.
+Docker node base image
