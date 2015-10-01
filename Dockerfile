@@ -12,7 +12,7 @@ RUN apt-get install -yq \
 
 # Select specific version of Node.js via n
 RUN npm install -g n; \
-    n 0.12;
+    n 4.0.0;
 
 # Clean up
 RUN apt-get clean
