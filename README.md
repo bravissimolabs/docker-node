@@ -1,5 +1,5 @@
 # docker-node
-Docker node base image. Currently v4.4.5 - the latest LTS release at the time of writing.
+Docker node base image. Currently v6.2.0 - the latest Current release at the time of writing.
 
 Available on Docker Hub @ [bravissimolabs/node](https://hub.docker.com/r/bravissimolabs/node)
 
@@ -8,3 +8,4 @@ Available on Docker Hub @ [bravissimolabs/node](https://hub.docker.com/r/braviss
 - v4.0.0
 - v4.2.1
 - v4.4.5
+- v6.2.0
