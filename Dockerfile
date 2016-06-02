@@ -1,5 +1,5 @@
 FROM bravissimolabs/baseimage
-MAINTAINER Adam K Dean <adamkdean@googlemail.com>
+MAINTAINER Luke Bennett <luke.bennett@bravissimo.com>
 
 # Add Git and Node package sources
 RUN add-apt-repository -y ppa:git-core/ppa; \
@@ -12,7 +12,7 @@ RUN apt-get install -yq \
 
 # Select specific version of Node.js via n
 RUN npm install -g n; \
-    n 4.2.1;
+    n 4.4.5;
 
 # Clean up
 RUN apt-get clean
